@@ -1,0 +1,53 @@
+Here is a code in JavaScript that creates a Rock, Paper, Scissors game:
+
+```javascript
+// Function to get the computer's choice
+function getComputerChoice() {
+  const choices = ['rock', 'paper', 'scissors'];
+  const randomNumber = Math.floor(Math.random() * 3);
+  return choices[randomNumber];
+}
+
+// Function to determine the winner
+function determineWinner(userChoice, computerChoice) {
+  if (userChoice === computerChoice) {
+    return 'It\'s a tie!';
+  }
+
+  if (userChoice === 'rock') {
+    if (computerChoice === 'scissors') {
+      return 'You win!';
+    } else {
+      return 'You lose!';
+    }
+  }
+
+  if (userChoice === 'paper') {
+    if (computerChoice === 'rock') {
+      return 'You win!';
+    } else {
+      return 'You lose!';
+    }
+  }
+
+  if (userChoice === 'scissors') {
+    if (computerChoice === 'paper') {
+      return 'You win!';
+    } else {
+      return 'You lose!';
+    }
+  }
+}
+
+// Main function to play the game
+function playGame() {
+  const userChoice = prompt('Do you choose rock, paper, or scissors?').toLowerCase();
+  const computerChoice = getComputerChoice();
+  console.log(`Computer chose: ${computerChoice}`);
+  console.log(determineWinner(userChoice, computerChoice));
+}
+
+playGame();
+```
+
+This code allows the user to play against the computer. The computer's choice is randomly selected, and the winner is determined based on the rules of Rock, Paper, Scissors.
