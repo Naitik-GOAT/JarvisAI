@@ -68,8 +68,10 @@ JARVIS is designed with a futuristic AI dashboard UI:
 
 ✨ Minimal, modern, high-tech aesthetic
 
-🏗️ Tech Stack (Example)
+## 🏗️ Tech Stack (Example)
+
 Component	Technology Options
+
 Frontend:	React / Next.js / HTML-CSS-JS
 Backend:	Python (FastAPI / Flask) or Node.js
 AI Chat:	LLM API (OpenAI, open-source models, etc.)
@@ -78,23 +80,8 @@ Voice Input:	Speech-to-Text API
 Voice Output:	Text-to-Speech API
 Live Search:	Search API or scraping service
 Database:	Supabase / Firebase / PostgreSQL
-🔑 APIs You May Need
 
-You’ll typically integrate separate APIs for:
-
-Chat AI → Language model API
-
-Image Generation → Text-to-image API
-
-Speech-to-Text → Voice recognition API
-
-Text-to-Speech → AI voice API
-
-Web Search → Real-time search API
-
-Many providers offer free tiers for development and prototyping.
-
-⚙️ How It Works
+## ⚙️ How It Works
 
 User types or speaks a command
 
@@ -118,22 +105,7 @@ Generated image (if requested)
 
 Spoken reply (optional)
 
-🧠 Example Commands
-"Explain black holes simply"
-"Generate a futuristic city image"
-"What's the weather today?"
-"Write a Python sorting script"
-"Summarize today’s tech news"
-
-🔒 Safety & Privacy
-
-No personal data stored without permission
-
-Harmful or illegal requests are blocked
-
-Designed with responsible AI principles
-
-🌟 Future Improvements
+## 🌟 Future Improvements
 
 Memory system for personalized responses
 
@@ -145,22 +117,4 @@ Mobile companion app
 
 Plugin system for new tools
 
-🛠️ Setup (Basic Flow)
-# Clone the repo
-git clone https://github.com/yourusername/jarvis-ai.git
 
-# Install dependencies
-npm install   # or pip install -r requirements.txt
-
-# Add API keys to environment file
-.env
-
-# Start the app
-npm run dev   # or python app.py
-
-📌 Vision
-
-JARVIS is built to feel like a real AI companion, not just a chatbot —
-a system that can see, listen, speak, create, and assist in one seamless experience.
-
-Built to explore the future of AI-powered personal assistants. 🚀
